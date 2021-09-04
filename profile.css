@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+    background-image: url(img/veg.jpg);
+}
+*:focus{
+    outline: none;
+}
+.box{
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    border: 2px solid #3498db;
+    box-shadow: -3px -3px 7px #ffffff73,
+                3px 3px 5px rgba(94,104,121,0.288);
+    border-radius: 25px;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.profile{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 50px;
+    filter: invert(100%);
+    padding: 3px;
+    background-color: transparent;
+}
+.cancel{
+    border: 1px solid #3498db;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+.cancel:hover{
+    transform: scale(1.1);
+}
+.done{
+    border: 1px solid #3498db;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+.done:hover{
+    transform: scale(1.1);
+}
+input[type="text"],
+input[type="email"]{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: #3498db;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #0082e6;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-bottom: 2px solid #3498db;
+    border-bottom-right-radius: 20px;
+    color: #3498db;
+    transition: 0.2s ease;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+    width: 100vw;
+    height: 5vw;
+    z-index: 1;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 10%;
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.navbar img{
+    width: 5%;
+    margin-right: 300px;
+}
+a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: white;
+    
+}
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color:gray;
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: gray;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    margin-left: -54px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding:20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.right img
+{
+    filter: invert(100%);
+    width: 1%;
+}

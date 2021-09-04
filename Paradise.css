@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+    width: 100vw;
+    height: 5vw;
+    z-index: 1;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 10%;
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.navbar img{
+    width: 5%;
+    margin-right: 300px;
+}
+a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: white;
+    
+}
+
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 700px;
+    background-image: url('img/bg1.jpg');
+    text-align: center;
+    word-spacing: 5px;
+    font-size: medium;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 1920px 730px;
+}
+.home h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.home h3{
+    font-size: 24px;
+    line-height: 50px;
+    color: white;
+}
+.about{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/abtus.jpg);
+    width: 100vw;
+}
+.reservation{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 700px;
+    
+}
+
+.order{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 700px;
+}
+.order h1{
+    text-align: center;
+}
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color:gray;
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: gray;
+}
+.order img
+{
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: -70px;
+    padding: 50px;
+    background-color: transparent;    
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-family: Audiowide;
+}
+p{
+    font-size: 24px;
+    line-height: 50px;
+}
+.reservation{
+    background-image: url('img/reserve.jpg');
+    text-align: center;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 1920px 730px; 
+   font-size: large;
+   width: 100vw;
+}
+
+.reservation h1{
+    font-family: 'Lobster', cursive;
+}
+.order{
+    background-image: url('img/order.jpg');
+    text-align: center; 
+    color: white;
+    background-size: 1920px 1000px;
+    align-items: center;
+    width: 100vw;
+}
+.order h1
+{
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+.order h1:hover
+{
+    color: white;
+}
+.contact{
+    background: #262626;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/veg.jpg);
+    background-size: 1920px 730px;
+}
+.contact h1{
+    font-family: 'Lobster', cursive;
+}
+
+.about h1{
+    font-family: 'Lobster', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    font-size: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color:transparent;
+    color: black;
+    padding: 3px 4px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 16px 6px rgba(0,0,0,6);
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    margin-left: -54px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding:20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.right img
+{
+    filter: invert(100%);
+    width: 1%;
+}

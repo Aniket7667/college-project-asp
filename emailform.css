@@ -1,0 +1,136 @@
+body
+{
+    margin: 200px;
+    padding: 0px;
+    font-family: 'Lobster', cursive;
+    background-image: url(img/veg.jpg);
+    background-size: 1600px;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', cursive;
+            color: white;
+            margin: 0px;
+            padding: 34px 23px;
+            background-size: 2000px;
+            background-attachment: fixed;
+}
+.form-group input {
+    font-family: 'Stint Ultra Condensed', cursive;
+    text-align: center;
+    display: block;
+    width: 297px;
+    padding: 34px 23px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 80px;
+    border-style: groove;
+}
+input[type=text]:focus 
+{
+    border-color: dodgerblue;
+    box-shadow: black;
+
+}
+.sign-up-form
+{
+    width: 300px;
+    margin: 8% auto 0;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,3);
+    background: #fff;
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.navbar {
+    display: inline-block;
+    padding: 0px;
+ }
+
+ .navbar li {
+     display: inline-block;
+     font-size: 16px;
+ }
+
+ .navbar li a {
+     color: black;
+     text-decoration: none;
+     padding: 20px 5px;
+     font-family: Poppins;
+     height: 70px;
+ }
+
+ .navbar li a:hover,
+ :active {
+     text-decoration: none;
+     color: white;
+ }
+button
+{
+    color: #fff;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-up-form h1{
+    font-family: 'Lobster', cursive;
+    color: black;
+    margin-bottom: 10px;
+}
+.input-box{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 30%;
+    border: 1px solid #999;
+    outline: none;
+}
+.signup-btn{
+    background-color: black;
+}
+.signup-btn a
+{
+    color: white;
+}
+.gmail-btn{
+    background-color: #3366cc;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    width: 30px;
+    margin: -19px auto 10px;
+
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding:20px 0;
+    text-align: center;
+    margin-left: -32px;
+    margin-bottom: -110px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
